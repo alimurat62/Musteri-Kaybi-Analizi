@@ -31,4 +31,3 @@ Bu veri kümesi ile öngörücü veri analitiği yöntemleri kolayca uygulanabil
 
 
 
-
