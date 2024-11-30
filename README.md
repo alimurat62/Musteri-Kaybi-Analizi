@@ -11,24 +11,23 @@ Nüfusun yoğun olduğu şehirlerde süpermarketlerin sayısı artıyor ve piyas
 Bu veri kümesi ile öngörücü veri analitiği yöntemleri kolayca uygulanabilir.
 
 # Özellik Bilgileri:
-    Fatura ID: Bilgisayar tarafından üretilen satış fişi fatura kimlik numarası.
-    Şube: Süpermarket şubesi (A, B ve C olarak tanımlanan 3 şube mevcut).
-    Şehir: Süpermarketlerin bulunduğu lokasyonlar.
-    Müşteri Türü: Müşteri türü; üye kartı kullanan müşteriler için "Üyeler", üye kartı olmayanlar için "Normal".
-    Cinsiyet: Müşterinin cinsiyeti.
-    Ürün Hattı: Genel ürün kategorileri; Elektronik aksesuarlar, Moda aksesuarları, Yiyecek ve içecekler, Sağlık ve güzellik, Ev ve yaşam tarzı, Spor ve seyahat.
-    Birim Fiyatı: Her bir ürünün fiyatı (dolar cinsinden).
-    Miktar: Müşteri tarafından satın alınan ürün sayısı.
-    Vergi: Müşterinin satın alma işlemi için ödediği %5'lik vergi ücreti.
-    Toplam: Vergi dahil toplam fiyat.
-    Tarih: Satın alma tarihi (Ocak 2019 - Mart 2019 tarihleri arasındaki kayıtlar).
-    Saat: Satın alma saati (10:00 - 21:00 arası).
-    Ödeme: Müşterinin satın alma işlemi için kullandığı ödeme yöntemi (3 yöntem mevcut: Nakit, Kredi kartı ve E-cüzdan).
-    COGS (Satılan Malların Maliyeti): Satılan malların toplam maliyeti.
-    Brüt Kar Marjı Yüzdesi: Brüt kar marjı yüzdesi.
-    Brüt Gelir: Brüt gelir.
-    Derecelendirme: Müşterinin genel alışveriş deneyimi için verdiği puan (1-10 arası bir ölçek).
-
+        Fatura Kimliği (Invoice id): Bilgisayar tarafından oluşturulan satış fişi fatura kimlik numarası
+        Şube (Branch): Süper merkezin şubesi (A, B ve C olarak tanımlanan 3 şube mevcut)
+        Şehir (City): Süpermarketlerin konumu
+        Müşteri Türü (Customer type): Müşteri türü; üye kartı kullananlar için "Üyeler", kullanmayanlar için "Normal" olarak kaydedilmiştir.
+        Cinsiyet (Gender): Müşterinin cinsiyeti
+        Ürün Hattı (Product line): Genel ürün kategorileri - Elektronik aksesuarlar, Moda aksesuarları, Yiyecek ve içecekler, Sağlık ve güzellik, Ev ve yaşam tarzı, Spor ve seyahat
+        Birim Fiyat (Unit price): Her bir ürünün fiyatı ($ olarak)
+        Adet (Quantity): Müşterinin satın aldığı ürün sayısı
+        Vergi (Tax): Müşterinin alışverişinde ödediği %5 vergi
+        Toplam (Total): Vergi dahil toplam fiyat
+        Tarih (Date): Alışveriş tarihi (Ocak 2019'dan Mart 2019'a kadar kayıtlar mevcut)
+        Saat (Time): Alışveriş saati (10.00 ile 21.00 arası)
+        Ödeme (Payment): Müşterinin kullandığı ödeme yöntemi (3 yöntem mevcut – Nakit, Kredi Kartı ve Elektronik Cüzdan)
+        Maliyet (COGS): Satılan malın maliyeti
+        Brüt Kar Marjı Yüzdesi (Gross margin percentage): Brüt kar marjı yüzdesi
+        Brüt Gelir (Gross income): Brüt gelir
+        Puanlama (Rating): Müşterinin genel alışveriş deneyimine ilişkin derecelendirmesi (1 ila 10 arasında bir ölçek)
 
 
 
