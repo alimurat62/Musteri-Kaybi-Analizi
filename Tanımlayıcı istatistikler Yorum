@@ -1,0 +1,21 @@
+1. Unit Price (Birim Fiyatı) :
+  Ortalama (mean): 55.67, veri setindeki ürünlerin ortalama birim fiyatıdır.
+      Standart Sapma (std): 26.49, birim fiyatın veri setindeki dağılımının ne kadar 
+                   değişken olduğunu gösteriyor. Fiyatlar birbirinden oldukça farklı.
+      Minimum (min) ve Maksimum (max): En düşük birim fiyat 10.08, en yüksek fiyat ise 99.96.
+      Çeyrek Değerler (25%, 50%, 75%): Medyan (50%) değeri 55.23, fiyatların orta noktada yoğunlaştığını
+                                      ve simetrik dağıldığını gösteriyor.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
