@@ -58,11 +58,43 @@ Aşağıdaki işlemler veri ön işleme aşamasında gerçekleştirilmiştir:
 
 Veri görselleştirme aşamasında aşağıdaki analizler gerçekleştirilmiştir:
 
-1. **Bölge Kategorisine Göre Churn Risk Dağılımı**: Coğrafi yerleşimin churn riski üzerindeki etkisi incelenmiştir.
-2. **Üyelik Kategorisine Göre Churn Risk Dağılımı**: Üyelik seviyelerinin churn riski üzerindeki etkisi incelenmiştir.
-3. **Şikayet Durumuna Göre Churn Risk Dağılımı**: Şikayetlerin, churn riskiyle ilişkisi görselleştirilmiştir.
-4. **Tavsiye Durumuna Göre Churn Risk Dağılımı**: Tavsiye ile gelen kullanıcıların churn riski incelenmiştir.
-5. **Churn Riskine Göre Teklif Türleri**: Teklif türlerinin churn riski üzerindeki etkisi gözlemlenmiştir.
+1. Bölge Kategorisine Göre Churn Risk Dağılımı:
+- Şehir ve köy kategorilerinde churn riski daha yüksekken, kasaba kategorisinde daha düşük riski var.
+- Coğrafi faktörler, kullanıcıların platformda kalmalarını etkileyebilir.
+
+2. Üyelik Kategorisine Göre Churn Risk Dağılımı:
+- Gold üyeler daha düşük churn riski gösteriyor, bu da üyeliklerin kullanıcı bağlılığını artırabileceğini gösteriyor.
+- No Membership (Üyelik Yok) kategorisi yüksek churn riski taşıyor.
+
+3. Üyelik Kategorisine Göre Ortalama Harcanan Zaman:
+- Premium üyelik kategorisi, en yüksek ortalama zaman harcamayı gösteriyor.
+
+4. Şikayet Durumuna Göre Churn Risk Dağılımı:
+- Şikayet durumu olan kullanıcıların churn riski daha yüksek.
+
+5. Tavsiye Durumuna Göre Churn Risk Dağılımı:
+- Tavsiye yoluyla üye olan kullanıcılar, daha yüksek churn riski taşıyor.
+
+6. Churn Riskine Göre Tercih Edilen Teklif Türleri:
+- Gift Vouchers/Coupons kullanıcıları daha fazla churn riski gösteriyor.
+
+7. Cinsiyete Göre Ortalama Harcama:
+- Cinsiyet farkı olmadan benzer harcama eğilimleri gözlemleniyor.
+
+8. İnternet Seçeneğine Göre Ortalama Harcama:
+- Fiber Optic ve Mobile Data kullanıcıları daha yüksek harcama yapıyor.
+
+9. Ortalama Zaman Harcama ve Şikayet Durumu:
+- Şikayet durumu olmayan kullanıcılar daha fazla zaman harcıyor.
+
+10. Cüzdan Puanlarına Göre Churn Riski:
+- Cüzdan puanları arttıkça churn riski azalıyor.
+
+11 .Özel İndirim Kullanımına Göre Ortalama Giriş Sıklığı:
+- Özel indirimlerin giriş sıklığı üzerinde önemli bir etkisi yok.
+
+12. Korelasyon Matrisi:
+- Yaş, cinsiyet, bölge kategorisi gibi değişkenler arasında düşük korelasyonlar gözlemleniyor, ancak üyelik kategorisi ve churn riski skoru arasında güçlü negatif bir ilişki var.
 
 ## Derin Öğrenme Modeli
 
@@ -95,6 +127,6 @@ Veri görselleştirme aşamasında aşağıdaki analizler gerçekleştirilmişti
 - Derin öğrenme modeli yüksek doğruluk oranları ile başarılı sonuçlar verirken, makine öğrenmesi modellerinden Random Forest, müşteri kaybı tahmininde daha etkili oldu.
 - Bu model, müşteri churn önleme stratejilerinde daha verimli bir araç olabilir.
 
-- Bu proje, müşteri kaybı tahminini yapmak için derin öğrenme modellerini kullanarak başarılı sonuçlar elde etmeyi amaçlamaktadır. Aşağıda yapılan işlemlerin özeti verilmiştir:
+- Bu proje, müşteri kaybı tahminini yapmak için derin öğrenme modellerini kullanarak başarılı sonuçlar elde etmeyi amaçlamaktadır. 
 - Bu süreçteki her aşama, veri bilimi ve makine öğrenmesi alanındaki en iyi uygulamalarla şekillendirilmiş ve sonuçlar oldukça tatmin edici olmuştur.
 
