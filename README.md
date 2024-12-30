@@ -58,6 +58,15 @@ Aşağıdaki işlemler veri ön işleme aşamasında gerçekleştirilmiştir:
 
 Veri görselleştirme aşamasında aşağıdaki analizler gerçekleştirilmiştir:
 
+## korelasyon matrisinden elde edilen kısa özet:
+- Yaş ve Churn Riski: Yaş ile churn riski arasında çok zayıf bir pozitif korelasyon vardır (0.0061), yani yaş arttıkça churn riski çok hafif bir şekilde artmaktadır.
+- Cinsiyet ve Churn Riski: Cinsiyet ile churn riski arasında çok zayıf bir negatif ilişki (-0.0053) vardır, ancak bu ilişki pratikte anlamlı değildir.
+- Üyelik Kategorisi ve Churn Riski: Üyelik kategorisi ile churn riski arasında güçlü bir negatif korelasyon (-0.5949) bulunmaktadır. - Bu, belirli üyelik kategorilerinin churn riskini önemli ölçüde etkilediğini gösteriyor.
+- İndirim Kullanımı ve Churn Riski: Özel indirim kullanımının churn riskiyle negatif bir korelasyonu vardır (-0.2927), ancak etkisi orta seviyededir.
+- Geri Bildirim ve Churn Riski: Geri bildirim ile churn riski arasında orta seviyede bir negatif korelasyon (-0.2041) vardır. Bu, geri bildirimde bulunan kullanıcıların churn risklerinin daha düşük olabileceğini gösterebilir.
+- Şikayet Durumu ve Churn Riski: Şikayet durumu ile churn riski arasında zayıf bir negatif korelasyon (-0.0028) vardır, bu ilişki de pratikte çok anlamlı değildir.
+- Genel olarak, bazı değişkenler arasında belirgin korelasyonlar gözlemlenmekte, ancak çoğu ilişki zayıf düzeydedir. Özellikle üyelik kategorisi, özel indirim kullanımı ve geri bildirim gibi faktörlerin churn riski üzerinde etkili olduğu söylenebilir.
+
 1. Yaş aralıklarına göre gruplandırma 
 - 20-50 yaş arası bireyler, müşteri kitlesinin çoğunluğunu oluşturuyor ve yaş ilerledikçe müşteri sayısı belirgin şekilde azalıyor.
 
@@ -79,25 +88,22 @@ Veri görselleştirme aşamasında aşağıdaki analizler gerçekleştirilmişti
 - Tavsiye yoluyla üye olan kullanıcılar, daha yüksek churn riski taşıyor.
 
 7. Churn Riskine Göre Tercih Edilen Teklif Türleri:
-- Gift Vouchers/Coupons kullanıcıları daha fazla churn riski gösteriyor.
+- "Without Offers" kullanıcıları daha fazla churn riski gösteriyor.
 
 8. Cinsiyete Göre Ortalama Harcama:
-- Cinsiyet farkı olmadan benzer harcama eğilimleri gözlemleniyor.
+- Erkek kullanıcıların ortalama harcama değeri biraz daha yüksekken, kadın ve bilinmeyen cinsiyete sahip kullanıcılar arasında harcama değerleri birbirine oldukça yakın.
 
 9. İnternet Seçeneğine Göre Ortalama Harcama:
-- Fiber Optic ve Mobile Data kullanıcıları daha yüksek harcama yapıyor.
+- Fiber optik internet kullanan kullanıcılar, en yüksek ortalama harcama değerine sahip
 
 10. Ortalama Zaman Harcama ve Şikayet Durumu:
-- Şikayet durumu olmayan kullanıcılar daha fazla zaman harcıyor.
+- Şikayeti olan kullanıcılar, şikayeti olmayanlara göre biraz daha fazla zaman harcamaktadır. Ancak, fark görece küçük olup, şikayet durumunun zaman harcaması üzerinde belirgin bir etkisi yok gibi görünmektedir.
 
 11. Cüzdan Puanlarına Göre Churn Riski:
 - Cüzdan puanları arttıkça churn riski azalıyor.
 
-12 .Özel İndirim Kullanımına Göre Ortalama Giriş Sıklığı:
+12. Özel İndirim Kullanımına Göre Ortalama Giriş Sıklığı:
 - Özel indirimlerin giriş sıklığı üzerinde önemli bir etkisi yok.
-
-13. Korelasyon Matrisi:
-- Yaş, cinsiyet, bölge kategorisi gibi değişkenler arasında düşük korelasyonlar gözlemleniyor, ancak üyelik kategorisi ve churn riski skoru arasında güçlü negatif bir ilişki var.
 
 ## Derin Öğrenme Modeli
 
