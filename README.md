@@ -19,7 +19,7 @@ Projede kullanılan kütüphaneler:
 Veri seti aşağıdaki özelliklerden oluşmaktadır:
 
 - **age**: Müşterinin yaşı
-- **gender**: Cinsiyet (Kadın/Erkek)
+- **gender**: Cinsiyet 
 - **security_no**: Güvenlik numarası
 - **region_category**: Bölge kategorisi 
 - **membership_category**: Üyelik kategorisi 
