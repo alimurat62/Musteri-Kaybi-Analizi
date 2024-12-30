@@ -136,6 +136,6 @@ Veri görselleştirme aşamasında aşağıdaki analizler gerçekleştirilmişti
 - Derin öğrenme modeli yüksek doğruluk oranları ile başarılı sonuçlar verirken, makine öğrenmesi modellerinden Random Forest, müşteri kaybı tahmininde daha etkili oldu.
 - Bu model, müşteri churn önleme stratejilerinde daha verimli bir araç olabilir.
 
-- Bu proje, müşteri kaybı tahminini yapmak için derin öğrenme modellerini kullanarak başarılı sonuçlar elde etmeyi amaçlamaktadır. 
+- Bu proje, müşteri kaybı tahminini yapmak için derin ve makine öğrenme modellerini kullanarak başarılı sonuçlar elde etmeyi amaçlamaktadır. 
 - Bu süreçteki her aşama, veri bilimi ve makine öğrenmesi alanındaki en iyi uygulamalarla şekillendirilmiş ve sonuçlar oldukça tatmin edici olmuştur.
 
