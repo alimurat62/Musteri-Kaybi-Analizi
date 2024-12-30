@@ -133,9 +133,12 @@ Veri görselleştirme aşamasında aşağıdaki analizler gerçekleştirilmişti
 
 ## Sonuçlar ve Öneriler
 
-- Derin öğrenme modeli yüksek doğruluk oranları ile başarılı sonuçlar verirken, makine öğrenmesi modellerinden Random Forest, müşteri kaybı tahmininde daha etkili oldu.
-- Bu model, müşteri churn önleme stratejilerinde daha verimli bir araç olabilir.
+Sonuçlar ve Öneriler:
 
-- Bu proje, müşteri kaybı tahminini yapmak için derin ve makine öğrenme modellerini kullanarak başarılı sonuçlar elde etmeyi amaçlamaktadır. 
+- Derin Öğrenme Modeli yüksek doğruluk (eğitim %93.3, test %92.5) ve güçlü ayrım gücü (ROC AUC: 0.97) ile üstün performans sergilemiştir.
+- Makine Öğrenmesi Modelleri arasında Random Forest daha güçlü sonuçlar verirken, Lojistik Regresyon daha basit ve açıklanabilir bir modeldir.
+- Lojistik Regresyon daha düşük performans gösterse de, özellikle basit ve hızlı çözümler isteyen durumlar için uygun olabilir.
+- Random Forest ve Derin Öğrenme daha yüksek doğruluk sağladığı için karmaşık müşteri davranışlarını tahmin etmek için tercih edilebilir.
+- İleriye dönük olarak, Derin Öğrenme ve Random Forest modelleri ile daha fazla iyileştirme yapılabilir.
 - Bu süreçteki her aşama, veri bilimi ve makine öğrenmesi alanındaki en iyi uygulamalarla şekillendirilmiş ve sonuçlar oldukça tatmin edici olmuştur.
 
