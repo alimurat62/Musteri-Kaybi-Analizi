@@ -133,8 +133,6 @@ Veri görselleştirme aşamasında aşağıdaki analizler gerçekleştirilmişti
 
 ## Sonuçlar ve Öneriler
 
-Sonuçlar ve Öneriler:
-
 - Derin Öğrenme Modeli yüksek doğruluk (eğitim %93.3, test %92.5) ve güçlü ayrım gücü (ROC AUC: 0.97) ile üstün performans sergilemiştir.
 - Makine Öğrenmesi Modelleri arasında Random Forest daha güçlü sonuçlar verirken, Lojistik Regresyon daha basit ve açıklanabilir bir modeldir.
 - Lojistik Regresyon daha düşük performans gösterse de, özellikle basit ve hızlı çözümler isteyen durumlar için uygun olabilir.
