@@ -62,7 +62,7 @@ Veri görselleştirme aşamasında aşağıdaki analizler gerçekleştirilmişti
 - 20-50 yaş arası bireyler, müşteri kitlesinin çoğunluğunu oluşturuyor ve yaş ilerledikçe müşteri sayısı belirgin şekilde azalıyor.
 
 2. Bölge Kategorisine Göre Churn Risk Dağılımı:
-- Şehir ve köy kategorilerinde churn riski daha yüksekken, kasaba kategorisinde daha düşük riski var.
+- Şehir ve kasaba kategorilerinde churn riski daha yüksekken, köy kategorisinde daha düşük riski var.
 - Coğrafi faktörler, kullanıcıların platformda kalmalarını etkileyebilir.
 
 3. Üyelik Kategorisine Göre Churn Risk Dağılımı:
